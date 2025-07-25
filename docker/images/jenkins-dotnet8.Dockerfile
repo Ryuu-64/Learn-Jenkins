@@ -1,4 +1,5 @@
-﻿# docker build -t ryuu/jenkins-dotnet8:latest ./jenkins-dotnet8
+﻿# docker build -f docker/images/jenkins-dotnet8.Dockerfile -t ryuu/jenkins-dotnet8:lts docker/images
+
 FROM jenkins/jenkins:lts
 
 USER root
