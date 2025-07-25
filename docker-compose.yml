@@ -1,7 +1,7 @@
 ﻿version: '3.8'
 services:
   jenkins:
-    image: jenkins/jenkins:lts
+    image: ryuu/jenkins-dotnet8:latest
     privileged: true
     user: root
     ports:
