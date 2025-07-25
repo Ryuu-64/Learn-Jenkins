@@ -1,0 +1,9 @@
+﻿# windows
+version: '3.8'
+volumes:
+  jenkins_data:
+    driver: local
+    driver_opts:
+      o: bind
+      type: none
+      device: C:/docker-data/jenkins-data1/jenkins_compose/jenkins_configuration
